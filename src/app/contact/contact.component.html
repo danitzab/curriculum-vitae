@@ -1,0 +1,11 @@
+<h5 class="title">{{ 'contact.title' | translate }}</h5>
+<ul class="style-none">
+  <li *ngFor="let item of 'contact.items' | translate">
+    <ng-container *ngIf="item.href; else optionWithoutLink">
+      <span class="icon {{item.icon}}"></span>&nbsp;&nbsp;<a [href]="item.href" target="_blank">{{item.value}}</a>
+    </ng-container>
+    <ng-template #optionWithoutLink>
+      <span class="icon {{item.icon}}"></span>&nbsp;&nbsp;{{item.value}}
+    </ng-template>
+  </li>
+</ul>

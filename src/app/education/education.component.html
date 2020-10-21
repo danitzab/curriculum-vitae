@@ -1,0 +1,26 @@
+<h5 class="title">{{ 'education.title' | translate }}</h5>
+
+<div
+  *ngFor="let item of 'education.items' | translate"
+  class="card mb-3"
+  style="border: none"
+>
+  <div class="row no-gutters">
+    <div class="col-sm-12 col-md-2">
+      <h6 class="card-title d-none d-sm-block">
+        {{ item.startDate }} - 
+        {{ item.endDate }}
+      </h6>
+    </div>
+    <div class="col-sm-12 col-md-10">
+      <h5 class="card-title font-weight-bold">{{ item.degree }}</h5>
+      <p class="card-title">
+        <span class="">
+          {{ item.institution }}
+        </span>
+        <small class="text-muted">{{ item.location }}</small>
+        <small class="text-muted d-block d-sm-none">{{ item.startDate }} - {{ item.endDate }}</small>
+      </p>
+    </div>
+  </div>
+</div>

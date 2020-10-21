@@ -1,0 +1,10 @@
+<div class="row option">
+  <div class="col-5">
+    {{name}}
+  </div>
+  <div class="col-6">
+    <ng-container *ngFor="let item of [1,2,3,4,5]">
+      <span [className]="item <= scale ? 'icon-star-full' : 'icon-star-empty'"></span>&nbsp;
+    </ng-container>
+  </div>
+</div>

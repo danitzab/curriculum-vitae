@@ -1,0 +1,6 @@
+<h5 class="title">{{ 'languages.title' | translate }}</h5>
+<ul class="style-none">
+  <li *ngFor="let item of 'languages.items' | translate">
+    <app-rating-scale [name]="item.name" [scale]="item.scale"></app-rating-scale>
+  </li>
+</ul>

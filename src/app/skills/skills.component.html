@@ -1,0 +1,14 @@
+<h5 class="title">{{ 'skills.title' | translate }}</h5>
+<div *ngFor="let item of 'skills.items' | translate" class="row form-group">
+  <div class="col-12">
+    <h6 class="font-weight-bold">{{ item.title }}</h6>
+
+    <ul class="style-none">
+      <li *ngFor="let subItem of item.items">
+        <app-rating-scale [name]="subItem.name" [scale]="subItem.scale"></app-rating-scale>
+      </li>
+    </ul>
+
+  </div>
+</div>
+

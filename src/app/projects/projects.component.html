@@ -1,0 +1,35 @@
+<h5 class="title">{{ 'projects.title' | translate }}</h5>
+
+<div
+  *ngFor="let item of 'projects.items' | translate"
+  class="card mb-3"
+  style="border: none"
+>
+  <div class="row no-gutters">
+    <div class="col-sm-12 col-md-2">
+      <h6 class="card-title d-none d-sm-block">
+        {{ item.startDate }} -<br />
+        {{ item.endDate }}
+      </h6>
+    </div>
+    <div class="col-sm-12 col-md-10">
+      <h5 class="card-title font-weight-bold">
+          <a [href]="item.url" target="_blank"><span class="icon icon-link"></span></a>
+          &nbsp;{{ item.name }}</h5>
+      <p class="card-title">
+        <small class="text-muted d-block d-sm-none">
+          {{ item.startDate }} - {{ item.endDate }}
+        </small>
+      </p>
+      <p class="card-text" [innerHTML]="item.descripcion"></p>
+      <ul class="card-text">
+        <li *ngFor="let responsibility of item.responsibilities">
+          {{ responsibility }}
+        </li>
+      </ul>
+      <small class="text-muted">
+        {{ item.technologies }}
+      </small>
+    </div>
+  </div>
+</div>

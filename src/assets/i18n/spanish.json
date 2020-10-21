@@ -1,0 +1,217 @@
+{
+  "profile": {
+    "name": "Danitza Bonilla",
+    "title": "React Frontend Developer"
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "items": [
+      {
+        "icon": "icon-location2",
+        "value": "Medellín, Colombia"
+      },
+      {
+        "icon": "icon-mobile",
+        "value": "(+57) 3108901102",
+        "href": "tel:+573108901102"
+      },
+      {
+        "icon": "icon-mail2",
+        "value": "danitzabonilla@gmail.com",
+        "href": "mailto:danitzabonilla@gmail.com"
+      },
+      {
+        "icon": "icon-linkedin",
+        "value": "linkedin.com/in/danitzabonilla",
+        "href": "https://www.linkedin.com/in/danitzabonilla/"
+      },
+      {
+        "icon": "icon-github",
+        "value": "github.com/danitzab",
+        "href": "https://github.com/Danitzab"
+      }
+    ]
+  },
+  "skills": {
+    "title": "HABILIDADES",
+    "items": [
+      {
+        "title": "Front-End",
+        "items": [
+          {
+            "name": "React",
+            "scale": 3
+          },
+          {
+            "name": "Javascript",
+            "scale": 3
+          },
+          {
+            "name": "TypeScript",
+            "scale": 2
+          },
+          {
+            "name": "Bootstrap 4",
+            "scale": 3
+          },
+          {
+            "name": "Tailwindcss",
+            "scale": 3
+          },
+          {
+            "name": "CSS",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Servicios Web",
+        "items": [
+          {
+            "name": "REST",
+            "scale": 3
+          }
+        ]
+      },
+      {
+        "title": "Otros",
+        "items": [
+          {
+            "name": "SCRUM",
+            "scale": 3
+          },
+          {
+            "name": "Git",
+            "scale": 4
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "title": "IDIOMAS",
+    "items": [
+      {
+        "name": "Español",
+        "scale": 5
+      },
+      {
+        "name": "Ingles",
+        "scale": 2
+      }
+    ]
+  },
+  "summary": {
+    "title": "PERFIL",
+    "description": "Desarrolladora Frontend en react, apasionada por la programación, y el trabajo en equipo."
+  },
+  "projects": {
+    "title": "PROYECTOS PERSONALES",
+    "items": [
+      {
+        "name": "Blucoding",
+        "url": "https://blucoding.vercel.app/",
+        "startDate": "Junio 2020",
+        "endDate": "Actualmente",
+        "descripcion": "Plataforma en desarrollo que busca reforzar los conocimientos de todas las personas que desean entrar al mundo de la programación.",
+        "technologies": "React - Tailwindcss - Contentful - Vercel",
+        "responsibilities": [
+          "He implementado las definiciones de colores y tipografía, además de los nuevos requerimientos y consumir los servicios del Backend.",
+          "Desplegado en Vercel"
+        ]
+      },
+      {
+        "name": "Reward Store",
+        "url": "https://store-danitza-bonilla.vercel.app/",
+        "startDate": "Octubre 2020",
+        "endDate": "Finalizado",
+        "descripcion": "Tienda online de articulos de tecnología, con filtros de búsqueda, consulta de APIs, manejo de estado global con contex.",
+        "technologies": "React - Bootstrap - REST - Vercel",
+        "responsibilities": [
+          "Organización y estructuración de componentes",
+          "Implementación de estado global con Contex",
+          "Diseño del Frontend",
+          "Desplegado en Vercel"
+        ]
+      },
+      {
+        "name": "News Feed",
+        "url": "https://news-feeds.vercel.app/",
+        "startDate": "Septiembre 2020",
+        "endDate": "Finalizado",
+        "descripcion": "Plataforma de una tienda  de un portal de noticias, filtrado bajo distintas categorías, los artículos son consultados a través de una API y manejo de estado global con Redux.",
+        "technologies": "React - Bootstrap - Redux - Redux Thunk - Vercel",
+        "responsibilities": [
+          "Organización y estructuración de componentes",
+          "Implementación de estado global con Redux y manejo de asincronismo con Redux Thunk",
+          "Diseño del Frontend",
+          "Desplegado en Vercel"
+        ]
+      },
+      {
+        "name": "Reserva de Alojamiento",
+        "url": "https://reserva-alojamiento.vercel.app/",
+        "startDate": "Agosto 2020",
+        "endDate": "Finalizado",
+        "descripcion": "Plataforma de búsqueda hotelera, con distintos tipos de filtros de búsqueda, además del manejo de estados locales entre componentes.",
+        "technologies": "React - Bootstrap - Vercel",
+        "responsibilities": [
+          "Organización y estructuración de componentes",
+          "Implementación de estado entre componentes",
+          "Diseño del Frontend",
+          "Desplegado en Vercel"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "EDUCACIÓN",
+    "items": [
+      {
+        "degree": "Arquitecta",
+        "institution": "Universidad del Atlantico",
+        "location": "Barranquilla, Atlantico",
+        "startDate": "2012",
+        "endDate": "2017"
+      }
+    ]
+  },
+  "certification": {
+    "title": "CERTIFICACIONES",
+    "items": [
+      {
+        "degree": "Frontend avanzado en React",
+        "institution": "Acamica",
+        "location": "Itagui, Antioquía",
+        "date": "Octubre 2020"
+      },
+      {
+        "degree": "React desde cero y gestión de estados en una aplicación",
+        "institution": "EdTeam",
+        "location": "Medellín, Antioquia",
+        "date": "Marzo 2020"
+      },
+      {
+        "degree": " Scrum Master",
+        "institution": "Global TI",
+        "location": "Medellín, Antioquia",
+        "date": "Mar 2019"
+      }
+    ]
+  },
+  "references": {
+    "title": "REFERENCIAS",
+    "items": [
+      {
+        "name": "Leonardo Solano",
+        "degree": "Fullstack Developer",
+        "phone": "(+57) 3017478385"
+      },
+      {
+        "name": "Walter Vanegas",
+        "degree": ".Net Developer",
+        "phone": "(+57) 3007002550"
+      }
+    ]
+  }
+}
